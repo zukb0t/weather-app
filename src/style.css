@@ -1,0 +1,54 @@
+body{
+    background:url('./aurora.jpeg');
+}
+
+ul{
+    align-self:center;
+    list-style:none;
+    margin:0;
+    padding:0;
+    width:400px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+header{
+    display:flex;
+    justify-content:center;
+}
+
+#weather-description{
+    width:200px;
+}
+
+#current-weather{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+}
+
+#current-weather > #temperature-container{
+    font-size:1.5rem;
+    align-self:center;
+}
+
+#weather-card{
+    padding:1.5rem;
+    display:flex;
+    justify-content:center;
+}
+
+#weekly-weather{
+    display:flex;
+    justify-content:center;
+}
+
+p{
+    text-align:center;
+}
+
+.forecast-card{
+    background-color:whitesmoke;
+    width:200px;
+}
