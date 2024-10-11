@@ -42,7 +42,7 @@ function displayWeeklyForecast(weather){
     const weeklyForecast = document.querySelector('#weekly-weather');
     const p = document.querySelector('.weekly-forecast-title');
     p.textContent = 'Weekly Forecast';
-    weeklyForecash.textContent = '';
+    weeklyForecast.textContent = '';
     for(let i = 0; i < 8; i++){
         const fcastContainer = document.createElement('div');
         fcastContainer.classList.add('forecast-card');
